@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                          android:orientation="vertical">
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/to_et" android:singleLine="true"
+                        android:hint="To"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/subject_et" android:hint="Subject"/>
+
+
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textMultiLine"
+                        android:gravity="start|top"
+                        android:ems="10"
+                        android:id="@+id/content_et"
+                        android:background="@null"
+                        android:hint="please key content"
+
+                />
+               <!-- <Button
+                        android:text="Send"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/send_mail_BTN"/>
+
+                        -->
+            </LinearLayout>
+
+
+
+
+
+

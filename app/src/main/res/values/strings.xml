@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GmailS4</string>
+    <string name="tab_text_1">Title1</string>
+    <string name="tab_text_2">Title2</string>
+    <string name="tab_text_3">Title3</string>
+    <string name="tab_text_4">Title4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+</resources>
